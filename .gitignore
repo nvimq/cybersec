@@ -1,8 +1,18 @@
-*.txt
-*.log
-*.html
-*.xml
+# scan results
 scan-*/
-wordlists/**
-wordlists/
+*.xml
+*.html
+*.log
+*.nmap
+
+# wordlists (large files, not in repo)
+wordlists/*
+!wordlists/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+
+# os
 .DS_Store
+Thumbs.db

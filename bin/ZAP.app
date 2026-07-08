@@ -1,1 +1,0 @@
-/Applications/ZAP.app
