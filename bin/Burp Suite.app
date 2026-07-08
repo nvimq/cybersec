@@ -1,0 +1,1 @@
+/Applications/Burp Suite.app

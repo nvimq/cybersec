@@ -1,0 +1,8 @@
+*.txt
+*.log
+*.html
+*.xml
+scan-*/
+wordlists/**
+wordlists/
+.DS_Store
