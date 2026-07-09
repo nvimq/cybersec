@@ -1,0 +1,76 @@
+FROM kalilinux/kali-rolling:latest AS base
+
+LABEL maintainer="nvimq"
+LABEL description="CyberSec Toolkit AI — Kali + MCP server + ProjectDiscovery stack + optional Ollama"
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+# === Base tools (from original Dockerfile) ===
+RUN apt-get update && apt-get install -y \
+    nmap \
+    sqlmap \
+    metasploit-framework \
+    nikto \
+    gobuster \
+    wfuzz \
+    whatweb \
+    hashcat \
+    john \
+    hydra \
+    aircrack-ng \
+    bettercap \
+    dirb \
+    python3-pip \
+    python3-venv \
+    nodejs \
+    npm \
+    git \
+    curl \
+    wget \
+    jq \
+    --no-install-recommends && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+
+# === Python packages ===
+RUN pip3 install --break-system-packages impacket
+
+# === Responder ===
+RUN git clone https://github.com/lgandx/Responder /opt/Responder && \
+    ln -sf /opt/Responder/Responder.py /usr/local/bin/responder
+
+# === Go & ProjectDiscovery stack ===
+RUN curl -fsSL https://go.dev/dl/go1.22.5.linux-amd64.tar.gz | tar -C /usr/local -xz
+ENV PATH="/usr/local/go/bin:/root/go/bin:${PATH}"
+
+RUN go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest && \
+    go install github.com/projectdiscovery/dnsx/cmd/dnsx@latest && \
+    go install github.com/projectdiscovery/httpx/cmd/httpx@latest && \
+    go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest && \
+    go install github.com/projectdiscovery/katana/cmd/katana@latest && \
+    go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+
+# Update nuclei templates
+RUN nuclei -ut 2>/dev/null || true
+
+# === MCP server ===
+WORKDIR /opt/cybersec-mcp
+COPY mcp/server/package.json mcp/server/tsconfig.json ./
+COPY mcp/server/src/ ./src/
+RUN npm install && npm run build
+
+# === Entrypoint ===
+WORKDIR /workspace
+COPY scripts/ /workspace/scripts/
+COPY mcp/ /workspace/mcp/
+COPY configs/ /workspace/configs/
+COPY wordlists/ /workspace/wordlists/
+COPY llm-security/ /workspace/llm-security/
+
+RUN chmod +x /workspace/scripts/*.sh
+
+CMD ["/bin/bash"]
+
+# === Optional: uncomment to enable Ollama (air-gapped LLM) ===
+# RUN curl -fsSL https://ollama.com/install.sh | sh
+# RUN ollama pull llama3.2
+# ENV OLLAMA_HOST=0.0.0.0

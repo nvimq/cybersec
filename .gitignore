@@ -16,3 +16,35 @@ __pycache__/
 # os
 .DS_Store
 Thumbs.db
+
+# ========================
+# AI Layer — MCP server
+# ========================
+
+# scope file (real targets — never commit)
+mcp/scope.yaml
+mcp/scope.yml
+
+# audit logs
+logs/
+!logs/.gitkeep
+
+# Node.js dependencies
+node_modules/
+
+# compiled TypeScript
+dist/
+
+# environment files
+.env
+.env.*
+!.env.example
+
+# AUP consent (created at runtime)
+.cybersec-mcp/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,33 @@
+# =============================================================================
+# CYBERSEC MCP — Scope File (Authorization Boundary)
+# =============================================================================
+# This file defines the authorized testing scope. Every tool call is validated
+# against these entries before execution. Out-of-scope targets are blocked
+# with an error and logged to the audit log.
+#
+# Usage:
+#   1. Copy this file to mcp/scope.yaml
+#   2. Edit the fields below for your engagement
+#   3. Never run tools without an active scope file
+# =============================================================================
+
+engagement_id: "client-acme-2026-07"
+authorized_by: ""
+authorization_doc: ""
+valid_until: "2026-08-01"
+
+# Allowed targets — CIDR, glob patterns, or exact hostnames
+in_scope:
+  - "192.168.1.0/24"
+  - "*.acme-corp.com"
+  - "acme-corp.com"
+
+# Explicit exclusions — these win over in_scope wildcards
+out_of_scope:
+  - "prod-payment.acme-corp.com"
+
+# Intensity level: safe | standard | aggressive
+#   safe       — reduced thread counts, top-100 ports, minimal load
+#   standard   — default parameters as specified per tool
+#   aggressive — removes some limits, but still blocks destructive-tier
+intensity: "safe"

@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "cybersec-mcp": {
+      "command": "node",
+      "args": ["mcp/server/dist/index.js"],
+      "description": "CyberSec Toolkit MCP — wraps nmap, gobuster, httpx, nuclei with guardrails (scope validation, rate limiting, audit log)",
+      "env": {
+        "CYBERSEC_MCP_AUP_ACCEPTED": "0"
+      }
+    },
+    "cybersec-pd-mcp": {
+      "command": "npx",
+      "args": ["@projectdiscovery/pd-tools-mcp"],
+      "description": "ProjectDiscovery MCP — subfinder → dnsx → naabu → httpx → katana → nuclei recon pipeline",
+      "disabled": true
+    }
+  }
+}
