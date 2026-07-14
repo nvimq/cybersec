@@ -1,0 +1,271 @@
+{
+  "url": "https://01.tomorrow-school.ai/intra/astanahub/module/linear-stats?event=96",
+  "timestamp": "2026-07-14T17:26:49.723Z",
+  "localStorage": {
+    "trust:cache:timestamp": "{\"timestamp\":1768387624406}",
+    "ethereum-https://01.tomorrow-school.ai": "{\"chainId\":\"0x1\"}",
+    "new-event-for-astanahub/96": "{\"id\":96,\"path\":\"/astanahub/module\",\"rootId\":96}",
+    "binance-https://01.tomorrow-school.ai": "{}",
+    "new-event-for-astanahub/789": "{\"id\":789,\"path\":\"/astanahub/module/checkpoint-zero\",\"rootId\":96}",
+    "saved-email-or-username": "",
+    "auditCode": "12345",
+    "lastEventId": "96",
+    "new-event-for-astanahub/251": "{\"id\":251,\"path\":\"/astanahub/module/checkpoint-zero\",\"rootId\":96}",
+    "new-event-for-astanahub/305": "{\"id\":305,\"path\":\"/astanahub/module/checkpoint-zero\",\"rootId\":96}",
+    "new-event-for-astanahub/653": "{\"id\":653,\"path\":\"/astanahub/ai-curriculum\",\"rootId\":653}",
+    "new-event-for-astanahub/295": "{\"id\":295,\"path\":\"/astanahub/module/checkpoint-zero\",\"rootId\":96}",
+    "loglevel": "SILENT",
+    "new-event-for-astanahub/97": "{\"id\":97,\"path\":\"/astanahub/module/checkpoint-zero\",\"rootId\":96}",
+    "session": "4v598v742cp",
+    "new-event-for-astanahub/310": "{\"id\":310,\"path\":\"/astanahub/module/checkpoint-zero\",\"rootId\":96}",
+    "timeOffset": "202",
+    "diff_file_tree_visible": "true",
+    "new-event-for-astanahub/206": "{\"id\":206,\"path\":\"/astanahub/piscinego/quadchecker\",\"rootId\":200}",
+    "new-event-for-astanahub/200": "{\"id\":200,\"path\":\"/astanahub/piscinego\",\"rootId\":200}",
+    "path": "/astanahub/module/linear-stats",
+    "hasura-jwt-token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI5NjUyIiwiaWF0IjoxNzg0MDQ2MDcxLCJpcCI6Ijg5LjIxOC44OC45OCwgMTcyLjE4LjAuMiIsImV4cCI6MTc4NDEzMjQ3MSwiaHR0cHM6Ly9oYXN1cmEuaW8vand0L2NsYWltcyI6eyJ4LWhhc3VyYS1hbGxvd2VkLXJvbGVzIjpbInVzZXIiXSwieC1oYXN1cmEtY2FtcHVzZXMiOiJ7fSIsIngtaGFzdXJhLWRlZmF1bHQtcm9sZSI6InVzZXIiLCJ4LWhhc3VyYS11c2VyLWlkIjoiOTY1MiIsIngtaGFzdXJhLXRva2VuLWlkIjoiY2RhZjU5OWItYTQwNC00OWUwLTg0NTktNTUyNWJlMTYwMWE4In19.t3O5Er-C6OwWSgRLt7rjA-sp1LElBvm38E7-fs1BwnU",
+    "module-view": "circle",
+    "new-event-for-astanahub/204": "{\"id\":204,\"path\":\"/astanahub/piscinego/sudoku\",\"rootId\":200}",
+    "new-event-for-astanahub/548": "{\"id\":548,\"path\":\"/astanahub/module/piscine-ai-1\",\"rootId\":548}",
+    "auditPass": "12345",
+    "new-event-for-astanahub/246": "{\"id\":246,\"path\":\"/astanahub/module/checkpoint-zero\",\"rootId\":96}",
+    "new-event-for-astanahub/202": "{\"id\":202,\"path\":\"/astanahub/piscinego/quad\",\"rootId\":200}",
+    "new-event-for-astanahub/289": "{\"id\":289,\"path\":\"/astanahub/module/checkpoint-zero\",\"rootId\":96}",
+    "new-event-for-astanahub/252": "{\"id\":252,\"path\":\"/astanahub/module/checkpoint-zero\",\"rootId\":96}",
+    "campus": "astanahub",
+    "new-event-for-astanahub/203": "{\"id\":203,\"path\":\"/astanahub/piscinego/checkpoint-02\",\"rootId\":200}",
+    "code-editor-tabs": "[{\"id\":\"brackets/main.go\",\"name\":\"main.go\",\"closable\":false}]",
+    "new-event-for-astanahub/265": "{\"id\":265,\"path\":\"/astanahub/module/checkpoint-zero\",\"rootId\":96}"
+  },
+  "sessionStorage": {},
+  "cookies": {},
+  "resources": [
+    {
+      "url": "https://01.tomorrow-school.ai/assets/css/intra/index.css?3s92vd",
+      "type": "link",
+      "size": 0,
+      "duration": 20.400000005960464
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/intra/index.js?3s92vd",
+      "type": "link",
+      "size": 0,
+      "duration": 21.099999994039536
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/fonts/IBMPlexSans-light-latin.woff2",
+      "type": "link",
+      "size": 0,
+      "duration": 20.899999976158142
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/fonts/IBMPlexMono-regular-latin.woff2",
+      "type": "link",
+      "size": 0,
+      "duration": 21.69999998807907
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/fonts/IBMPlexMono-light-latin.woff2",
+      "type": "link",
+      "size": 0,
+      "duration": 21.19999998807907
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/css/global.css",
+      "type": "link",
+      "size": 0,
+      "duration": 21.5
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/img/logo.png",
+      "type": "link",
+      "size": 0,
+      "duration": 31.599999994039536
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/inject.js?h2b8LOyVgw",
+      "type": "script",
+      "size": 0,
+      "duration": 40.900000005960464
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/css/font-styles.css",
+      "type": "css",
+      "size": 0,
+      "duration": 2.199999988079071
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-EJF5TWXQ.js",
+      "type": "script",
+      "size": 0,
+      "duration": 7
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-YPPY3A4U.js",
+      "type": "script",
+      "size": 0,
+      "duration": 8.800000011920929
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-RBPZMOMU.js",
+      "type": "script",
+      "size": 0,
+      "duration": 9.599999994039536
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-7ZP6B7ML.js",
+      "type": "script",
+      "size": 0,
+      "duration": 8.400000005960464
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-NZ6FI37X.js",
+      "type": "script",
+      "size": 0,
+      "duration": 9.099999994039536
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-KUQQLFVJ.js",
+      "type": "script",
+      "size": 0,
+      "duration": 11.599999994039536
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-JPZJI726.js",
+      "type": "script",
+      "size": 0,
+      "duration": 13.699999988079071
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-L6WVQX6P.js",
+      "type": "script",
+      "size": 0,
+      "duration": 11
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-CM3TI267.js",
+      "type": "script",
+      "size": 0,
+      "duration": 9.300000011920929
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-VZTFZEF5.js",
+      "type": "script",
+      "size": 0,
+      "duration": 9.099999994039536
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-BCWVFLUW.js",
+      "type": "script",
+      "size": 0,
+      "duration": 13.700000017881393
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-VKY77UPX.js",
+      "type": "script",
+      "size": 0,
+      "duration": 13.800000011920929
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-4OHRWWQO.js",
+      "type": "script",
+      "size": 0,
+      "duration": 13.300000011920929
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-YR2M45BW.js",
+      "type": "script",
+      "size": 0,
+      "duration": 14.100000023841858
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-7KGFIHPR.js",
+      "type": "script",
+      "size": 0,
+      "duration": 14
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/api/object/astanahub",
+      "type": "fetch",
+      "size": 101308,
+      "duration": 65.2999999821186
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/fonts/IBMPlexSans-regular-latin.woff2",
+      "type": "css",
+      "size": 0,
+      "duration": 1
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/fonts/IBMPlexMono-medium-latin.woff2",
+      "type": "css",
+      "size": 0,
+      "duration": 1
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/api/content/root/public/subjects/linear-stats/README.md",
+      "type": "fetch",
+      "size": 0,
+      "duration": 1.0999999940395355
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/api/logger",
+      "type": "fetch",
+      "size": 300,
+      "duration": 15.099999994039536
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/api/logger",
+      "type": "fetch",
+      "size": 300,
+      "duration": 13.600000023841858
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/index.es-XHJFMT7H.js",
+      "type": "script",
+      "size": 0,
+      "duration": 1.199999988079071
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/dist-KF6N3IU2.js",
+      "type": "script",
+      "size": 0,
+      "duration": 1.5999999940395355
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/api/logger",
+      "type": "fetch",
+      "size": 300,
+      "duration": 14.699999988079071
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/api/logger",
+      "type": "fetch",
+      "size": 300,
+      "duration": 17.80000001192093
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/fonts/IBMPlexSans-bold-latin.woff2",
+      "type": "css",
+      "size": 0,
+      "duration": 4.9000000059604645
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/assets/js/chunk-NQT4YVSJ.js",
+      "type": "script",
+      "size": 0,
+      "duration": 3.199999988079071
+    },
+    {
+      "url": "https://01.tomorrow-school.ai/api/auth/now",
+      "type": "fetch",
+      "size": 313,
+      "duration": 22.19999998807907
+    }
+  ],
+  "serviceWorker": null,
+  "indexedDB": {},
+  "cacheStorage": {
+    "keys": []
+  }
+}
