@@ -105,6 +105,13 @@ audit_private:
 
 ---
 
+## 📋 Security Audit Checklist
+
+Полный план аудита с приоритетами, чеклистами по зонам и статусом проверок:  
+➡️ [Tomorrow_School_Audit_README.md](Tomorrow_School_Audit_README.md)
+
+---
+
 ## 📁 Структура проекта
 
 ```
